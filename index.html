@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide de Imagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<h1>Um site sobre Halls</h1>
+   <div id="conteudo-pt" class="idioma">
+       <p>Halls é uma marca globalmente reconhecida de balas e pastilhas refrescantes, famosa por seu sabor intenso e pelas sensações refrescantes que proporciona. Fundada em 1893 pela empresa britânica Warner-Lambert, a marca Halls rapidamente se tornou um nome de destaque no mercado de confeitos.</p>
+       <p>Uma das características distintivas da Halls é sua ampla variedade de sabores e formulações, que vão desde menta e eucalipto até frutas tropicais e sabores cítricos. Essa diversidade permite que a marca atenda a uma ampla gama de preferências de sabor, tornando-se uma escolha popular entre consumidores de todas as idades.</p>
+       <p>Além dos sabores, a Halls é conhecida por sua embalagem icônica e distintiva, que muitas vezes apresenta cores vibrantes e designs modernos. Essa embalagem não apenas destaca os produtos nas prateleiras, mas também comunica a sensação refrescante e revigorante associada ao consumo de balas Halls.</p>
+       <p>Mais do que apenas um produto para refrescar o hálito, a marca Halls tornou-se sinônimo de momentos de refresco e revitalização. Seja para dar um impulso de energia durante um dia agitado ou para proporcionar alívio instantâneo durante um resfriado, as balas Halls são frequentemente consideradas uma escolha confiável para revigorar o corpo e a mente.</p>
+       <p>Além disso, a Halls tem se mantido relevante ao longo dos anos, adaptando-se às mudanças nas preferências do consumidor e às tendências do mercado. Por meio de campanhas de marketing inovadoras e parcerias estratégicas, a marca continua a fortalecer sua presença global e a manter sua posição como líder no segmento de confeitos refrescantes.</p>
+       <p>Em resumo, a marca Halls é muito mais do que apenas um produto de balas. Ela representa uma experiência sensorial refrescante e revigorante, que tem cativado consumidores em todo o mundo por décadas. Com sua ampla gama de sabores e embalagens marcantes, a Halls continua a ser uma escolha popular para aqueles que buscam uma explosão de frescor a qualquer momento.</p>
+       <button onclick="mudarIdioma('jp')">Japonês</button>
+    </div>
+   
+   
+    <div id="conteudo-jp" class="idioma" style="display: none;">
+       <p>Halls は、さわやかなミントとタブレットの世界的に認められたブランドで、その強烈な風味と爽やかな感覚で有名です。 1893 年に英国のワーナー ランバート社によって設立されたホール ブランドは、すぐに菓子市場で有名なブランドになりました。</p>
+       <p>ホールズの特徴の 1 つは、ミントやユーカリからトロピカル フルーツや柑橘系のフレーバーに至るまで、その幅広い種類のフレーバーと配合です。この多様性により、このブランドは幅広いフレーバーの好みに対応できるため、あらゆる年齢の消費者の間で人気の選択肢となっています。</p>
+       <p>フレーバーに加えて、ホールズはその象徴的で特徴的なパッケージでも知られており、多くの場合、鮮やかな色とモダンなデザインが特徴です。このパッケージは、棚にある商品を強調するだけでなく、ホールズ キャンディーを消費するときに伴うさわやかで爽快な感覚を伝えます。</p>
+       <p>Halls ブランドは、息をリフレッシュするための単なる製品ではなく、リフレッシュと活性化の瞬間の代名詞となっています。忙しい一日にエネルギーを補給したり、風邪をひいたときに即座に緩和したりする場合でも、ホールズ ミントは体と心を元気づける信頼できる選択肢であると考えられています。</p>
+       <p>さらに、ホールズは、変化する消費者の好みや市場動向に適応することで、長年にわたり関連性を維持してきました。革新的なマーケティング キャンペーンと戦略的パートナーシップを通じて、このブランドは世界的な存在感を強化し続け、清涼菓子部門のリーダーとしての地位を維持しています。</p>
+       <p>つまり、ホールズ ブランドは単なるキャンディー製品ではありません。それは、何十年にもわたって世界中の消費者を魅了してきた、さわやかで爽快な感覚体験を表しています。幅広いフレーバーと印象的なパッケージのホールズは、いつでも新鮮さを求める人々に人気の選択肢であり続けています。</p>
+       <button onclick="mudarIdioma('pt')">Português</button>
+    </div>
+
+
+<br>
+<br>
+
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+      <img src="azul.jpg">
+  </div>
+
+
+
+
+  <div class="mySlides fade">
+      <img src="cereja.jpg">
+  </div>
+
+
+
+
+  <div class="mySlides fade">
+      <img src="preto.jpg">
+  </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+   <br>
+
+
+
+
+  <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+  <button onclick="changeBackground()">Change Background</button>
+
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
